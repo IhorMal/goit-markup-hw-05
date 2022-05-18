@@ -58,11 +58,16 @@
             для вашего бизнеса
           </h1>
 
-          <button class="hero-btn btn" type="button">Заказать услугу</button>
+          <button class="hero-btn btn" type="button" data-modal-open>Заказать услугу</button>
 
-          <div class="backdrop">
-            <div class="madal">
-              <button class="modal-btn" type="button"></button>
+          <!-- Modal -->
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="modal-btn btn" type="button" data-modal-close>
+                <svg class="modal-btn-icon" width="18" height="18">
+                  <use href="./images/symbol-defs.svg#modal-icon"></use>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
