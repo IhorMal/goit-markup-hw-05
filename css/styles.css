@@ -704,7 +704,8 @@ picture {
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-items:hover .protfolio-desc-box {
+.portfolio-items:hover .protfolio-desc-box,
+.portfolio-items:focus .protfolio-desc-box {
   opacity: 1;
   transform: translateY(0);
 }
